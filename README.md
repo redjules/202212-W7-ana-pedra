@@ -66,3 +66,6 @@ Crea los siguientes archivos JS y haz que funcionen como módulos mediante impor
   - En la lista con clase `metadata`, haz que sólo aparezcan los `li` correspondientes al personaje.
 - [x] Cuando el usuario haga clic en el botón _"muere"_, tiene que cambiar el estado del personaje, y la interfaz debe reflejar el cambio.
 - [x] Cuando el usuario haga clic en el botón _"habla"_, el elemento con clase `comunicaciones` debe aparecer con el texto y la imagen correspondientes. Haz que este elemento `comunicaciones` tenga la clase `on` durante 2 segundos y luego se le quite.
+
+## Netlify 
+https://week7-ana-pedra.netlify.app/
