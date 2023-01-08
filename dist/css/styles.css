@@ -65,6 +65,13 @@ body {
     color: #fff;
     width: 80%;
 }
+.character__action:hover {
+    background-color: #b45631;
+    color: #fff;
+}
+.character__action[disabled] {
+    opacity: 0;
+}
 .comunications {
     position: fixed;
     top: 0;
@@ -85,7 +92,7 @@ body {
     background-color: rgba(255, 255, 255, 1);
 }
 .comunications__picture {
-    width: 70px;
+    width: 190px;
     position: absolute;
     right: 10px;
     bottom: 10px;
@@ -95,13 +102,21 @@ body {
     position: absolute;
     right: 5px;
     top: 5px;
+    font-size: 2.5rem;
+    text-shadow: -1px 2px 17px rgb(255 186 186 / 80%);
+    transition: all 0.2s;
 }
 
-.fa-thumbs-up {
-    color: green;
+.character:hover .emoji {
+    font-size: 1.8rem;
+    text-shadow: -2px 0px 10px rgb(255 186 186 / 0%);
 }
 
-.fa-thumbs-down {
-    color: red;
-    display: none;
+.character__picture--rotate {
+    transform: rotate(180deg);
+    opacity: 0.5;
+}
+
+.character__info li i {
+    padding-left: 0.3rem;
 }
